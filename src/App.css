@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+}
+.letreto{
+  align-self: flex-end;
+  background-color: #99E387;
+  padding: 8px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+}
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: center;
+  position: relative;
+}
+.input{
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0,0.3);
+  height: 30px;
+}
+
+.button {
+  background-color: #99E387;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap : 4px;
+  align-items: start;
+}
+.href{
+  align-self: flex-end;
+  color: #99E387;
+  font-size: small;
+  padding-top: 5px;
+}
+.href2{
+  align-self: center;
+  color: #99E387;
+  font-size: small;
+  padding-top: 5px;
+}
