@@ -6,7 +6,7 @@ import Cart from './assets/icons/cart.svg'
 function Layout({ children }) {
   return (
     <>
-      <ul className="navbar">
+      <navbar className="navbar">
         <li><button type="submit" className="button">Palo Verde SHOP</button></li>
         <li className="right">
             <Link to='/login'>
@@ -14,7 +14,7 @@ function Layout({ children }) {
             </Link>            
             <button type="submit" className="button"><img src={Cart} className='cart-img'/></button>
         </li>
-      </ul>
+      </navbar>
       <main>
         {children}
       </main>

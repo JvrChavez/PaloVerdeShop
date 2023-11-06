@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import './singup.css'
+import '../../rutas/login/login.css'
 import BackArrow from '../../assets/icons/backArrow.svg'
 import { Link } from 'react-router-dom'
-
+import './singup.css'
 function App() {
   //const [count, setCount] = useState(0)
   return (
     <div className='App'>
       <div className="card"> {/* Aplica el estilo de la tarjeta */}
-        <div className='botones'>
+        <div className='header'>
           <Link to ='/login'>
-          <button type="submit" className="back"><img src={BackArrow} className='back img'/></button>
+          <button type="submit" className="back"><img src={BackArrow} className='back-img'/></button>
           </Link>          
-          <span className='letreto'>Palo Verde SHOP</span>
-        </div>        
+          <h5 className='letreto2'>Palo Verde SHOP</h5>
+             
+        </div> 
+           
         <h2>Crea tu cuenta</h2>
         <form className='form'>        
           <label>Nombre de usuario:</label>
