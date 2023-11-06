@@ -7,7 +7,6 @@
   background-color: #f0f0f0;
 }
 .letreto {
-  order: 2;
   float: right; /* Alinea a la derecha utilizando float */
   background-color: #9ED2Be;
   padding: 8px;
@@ -55,7 +54,6 @@
   width: 100%;
 }
 .back{
-  order: 1;
   background-color: #9ED2Be; /* Color de fondo del botón */
   color: #fff; /* Color del texto del botón */
   border: none; /* Elimina el borde del botón */

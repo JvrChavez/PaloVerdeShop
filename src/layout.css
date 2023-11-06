@@ -23,7 +23,8 @@ ul {
   }
 
   li a:hover {
-    background-color: #111;
+    background-color: #f1f1f1;
+    color: #9ED2Be;
   }
   .button {
     background-color: #9ED2Be;
@@ -34,8 +35,8 @@ ul {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
+    height: auto;
   }
-
   .navbar {
     list-style-type: none;
     padding: 0;
@@ -43,8 +44,14 @@ ul {
     justify-content: space-between;
     align-items: center;
   }
-  
   .right {
     display: flex;
     align-items: right;
+  }
+  .cart-img{
+    width: auto;
+    height: 25px;
+    border: none; /* Elimina el borde del botón */
+    filter: invert(100%) sepia(0%) saturate(7498%) hue-rotate(315deg) brightness(102%) contrast(101%);
+    background-color: transparent;
   }
