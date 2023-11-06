@@ -6,13 +6,23 @@
   width: 100vw;
   background-color: #f0f0f0;
 }
-.letreto{
-  align-self: flex-end;
+.letreto {
+  order: 2;
+  float: right; /* Alinea a la derecha utilizando float */
   background-color: #9ED2Be;
   padding: 8px;
   color: #fff;
   font-weight: 700;
   border-radius: 4px;
+  display: flex;
+  align-items: right;
+}
+.botones{
+  display: flex;
+  justify-content: space-between;
+}
+.botones button{
+  padding: 10px 20px;
 }
 .card {
   background-color: #fff;
@@ -34,7 +44,6 @@
   border: 1px solid rgba(0, 0, 0,0.3);
   height: 30px;
 }
-
 .button {
   background-color: #9ED2Be;
   color: #fff;
@@ -44,6 +53,23 @@
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
+}
+.back{
+  order: 1;
+  background-color: #9ED2Be; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 50px; /* Agrega bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  width: 50px;
+  height: 50px;
+}
+.back img{
+  width: 30px;
+  height: 30px;
+  border: none; /* Elimina el borde del botón */
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(257deg) brightness(104%) contrast(101%);
+  background-color: transparent;
 }
 .form{
   width: 100%;
